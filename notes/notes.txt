@@ -1,0 +1,2 @@
+In html page script tag to include js can be included inside Head tag or better is to add it in last inside body tag. It means that after loading whole page/elements js will be loaded and it has access to all elements.
+You can also mention "async" property inside script tag, which means that script will not be executed until whole page/dom is loaded. 
