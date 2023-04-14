@@ -1,0 +1,11 @@
+7/4/2023
+--------
+
+Continous Integration
+---------------------
+
+1. In this process multiple coders push their code to central repository like github. An then once they checkin their code, Build server will fetch that code from central repo and using a build tool it will build the code, integrate the code and run the tests and if there is any error or success then it will send the notification to the develper about it. So if there is any error then dev. will fix it and again checkin the code and same steps will repeat... so its a continuous integration because build server is continuously iintegrating the code from multiple checkins and building it.
+
+2. once code is successfully build and integrated then it is pushed to a repo i.e. soft artifact repo. Here basically build file is there like jar, war, tar, .min.js etc. And from here its depolyed to different servers for testing. And once testing is done and successful then its pushed to server.
+
+1. Ide, central repo - github, build server and inside it ci tools like jenkins which uses build tools like maven, MI build etc. and software/artifact repo like sonatype nexus.

@@ -1,0 +1,14 @@
+4/4/2023
+--------
+
+1. In html page script tag to include js can be included inside Head tag or better is to add it in last inside body tag. It means that after loading whole page/elements js will be loaded and it has access to all elements.
+
+
+2. You can also mention "async" property inside script tag, which means that script will not be executed until whole page/dom is loaded. Actually its same as loading scripts inside body tag i.e. just before the closing of body tag. Also the order of js files included in html page matters.
+
+14/4/2023
+---------
+
+1. Basically javascript precives a html page as a dom (document object model). An html page has different objects/nodes like comment nodes, text nodes, attriute nodes and element nodes. And every opening and closing tag represents an element.
+
+2. To find an element in an html document or dom we can use let p = document.getElementbyId() method and then pass calue of id attribute of a node to it. Then it will give that element / node. And then we can use p.textcontent = <any text or any value of a js variable>
