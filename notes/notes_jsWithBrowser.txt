@@ -11,4 +11,13 @@
 
 1. Basically javascript precives a html page as a dom (document object model). An html page has different objects/nodes like comment nodes, text nodes, attriute nodes and element nodes. And every opening and closing tag represents an element.
 
-2. To find an element in an html document or dom we can use let p = document.getElementbyId() method and then pass calue of id attribute of a node to it. Then it will give that element / node. And then we can use p.textcontent = <any text or any value of a js variable>
+2. To find an element in an html document or dom we can use let p = document.getElementbyId() method and then pass calue of id attribute of a node to it. Then it will give that element / node. And then we can use p.textcontent = <any text or any value of a js variable.
+
+23/4/2023
+---------
+
+1. Everything in html document is dom nodes. Basically there are total 13 nodes but most commonly 3/4 are used like element nodes, text nodes, attribute nodes and comment nodes< etc.
+2. Three methods are most commonly used to find element(s) in html document. They are document.getelementbyId(), document.queryselector() and document.queryselectorall(). 
+3. getElementById() takes one argument i.e. id of an element and gives back one node/element.
+4. querySelector() also takes one argument, basically any css selector it can take and gives back a single element. It gives first matched element.
+5. querySelectorAll() also takes one argument, basically any css selector it can take and gives back list/collection of elements. We can loop through it and do operations.
